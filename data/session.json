@@ -1,0 +1,56 @@
+[
+    {
+        "RunnerName": "CC 20 Over Runs ADV",
+        "LayPrice1": 172,
+        "LaySize1": 100,
+        "BackPrice1": 175,
+        "BackSize1": 100,
+        "Game Status": "",
+        "SelectionId": "94476"
+    },
+    {
+        "RunnerName": "Highest Run In Over ADV",
+        "LayPrice1": 20,
+        "LaySize1": 100,
+        "BackPrice1": 21,
+        "BackSize1": 100,
+        "GameSt atus": "",
+        "SelectionId": "94490"
+    },
+    {
+        "RunnerName": "sd",
+        "LayPrice1": 0,
+        "LaySize1": 0,
+        "BackPrice1": 0,
+        "BackSize1": 0,
+        "GameStatus": "OFFLINE",
+        "SelectionId": "94481"
+    },
+    {
+        "RunnerName": "CW 6 Over Runs ADV",
+        "LayPrice1": 48,
+        "LaySize1": 100,
+        "BackPrice1": 50,
+        "BackSize1": 100,
+        "GameStatus": "",
+        "SelectionId": "94477"
+    },
+    {
+        "RunnerName": "N USE",
+        "LayPrice1": 0,
+        "LaySize1": 0,
+        "BackPrice1": 0,
+        "BackSize1": 0,
+        "GameStatus": "OFFLINE",
+        "SelectionId": "94271"
+    },
+    {
+        "RunnerName": "B Rajapaksa Runs Open Valid",
+        "LayPrice1": 23,
+        "LaySize1": 110,
+        "BackPrice1": 23,
+        "BackSize1": 90,
+        "GameStatus": "",
+        "SelectionId": "94483"
+    }
+]

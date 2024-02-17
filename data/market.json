@@ -1,0 +1,48 @@
+[
+    {
+        "marketId": "1.166397338",
+        "marketName": "Match Odds",
+        "marketStartTime": "2019-12-19T04:45:00.000Z",
+        "totalMatched": 35685.4,
+        "runners": [
+            {
+                "selectionId": 7461,
+                "runnerName": "Pakistan",
+                "handicap": 0,
+                "sortPriority": 1
+            },
+            {
+                "selectionId": 7337,
+                "runnerName": "Sri Lanka",
+                "handicap": 0,
+                "sortPriority": 2
+            },
+            {
+                "selectionId": 60443,
+                "runnerName": "The Draw",
+                "handicap": 0,
+                "sortPriority": 3
+            }
+        ]
+    },
+    {
+        "marketId": "1.166397339",
+        "marketName": "Tied Match",
+        "marketStartTime": "2019-12- 19T04:45:00.000Z",
+        "totalMatched": 0,
+        "runners": [
+            {
+                "selectionId": 37302,
+                "runnerName": "Yes",
+                "handicap": 0,
+                "sortPriority": 1
+            },
+            {
+                "selectionId": 37303,
+                "runnerName": "No",
+                "handicap": 0,
+                "sortPriority": 2
+            }
+        ]
+    }
+]

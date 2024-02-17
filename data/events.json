@@ -1,0 +1,8 @@
+[{"competition":
+{"id":"12239005","name":"French Open 2020"},
+"marketCount":2,
+"competitionRegion":"International"},
+{"competition": {"id":"12194105","name":"Australian Open 2020"},
+"marketCount":2,"competitionRegion":"AUS"},
+{"competition": {"id":"9157389","name":"ITF Antalya"},
+"marketCount":3,"competitionRegion":"International"},{"competition": {"id":"12277180","name":"WTA Limoges 2019"},"marketCount":760,"competitionRegion":"FRA"},{"competition": {"id":"12277135","name":"Tennis Exhibition Matches"},"marketCount":4,"competitionRegion":"GBR"},{"competition": {"id":"10526104","name":"Mubadala World Tennis Championship"},"marketCount":8,"competitionRegion":"International"}]

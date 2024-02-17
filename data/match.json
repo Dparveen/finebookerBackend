@@ -1,0 +1,16 @@
+[
+    {
+        "event": {
+            "id": "28529194",
+            "name": "ICC World Twenty20 2020",
+            "countryCode": "AU",
+            "timezone": "GMT",
+            "openDate": "2020-10- 24T14:00:00.000Z"
+        },
+        "marketCount": 1,
+        "scoreboard_id": "",
+        "selections": null,
+        "liability_type": "0",
+        "undeclared_markets": 1
+    }
+]
