@@ -26,7 +26,7 @@ const Banner = require('./models/Banner');
 // const Runner = require('./data/runner.json');
 // const OddData = require('./data/odds.json');
 // const SessionData = require('./data/session.json');
-require('./middleware/mainnet');
+// require('./middleware/mainnet');
 const MongoUrl = 'mongodb+srv://blacklist_expert:blacklist_expert@cluster0.1gx2mar.mongodb.net/bazeeplay?retryWrites=true&w=majority';
 mongoose.connect(MongoUrl,
     {

@@ -902,17 +902,17 @@ router.post('/live/:token', async (req, res) => {
     	res.status(200).json({ status: true,});
     	return;
 	}
-	if(check.length > 0){
-    	let difference = Date.now() - check[0].lastUpdate;
-    	console.log('difference ' + difference,  Date.now(), check[0].lastUpdate)
-	if (difference > 900) {
-	if(check[0].gameId === 4){
-		await getFancy(check[0].eventID);
-		await getBookMaker(check[0].eventID);
-	}
-		await getOdds(market[0].marketId, market[0].GameId, market[0].ComponentId, market[0].EventID);
-	}else{ console.log('Time less than'); }
-	}
+	// if(check.length > 0){
+    // 	let difference = Date.now() - check[0].lastUpdate;
+    // 	console.log('difference ' + difference,  Date.now(), check[0].lastUpdate)
+	// if (difference > 900) {
+	// if(check[0].gameId === 4){
+	// 	await getFancy(check[0].eventID);
+	// 	await getBookMaker(check[0].eventID);
+	// }
+	// 	await getOdds(market[0].marketId, market[0].GameId, market[0].ComponentId, market[0].EventID);
+	// }else{ console.log('Time less than'); }
+	// }
 	let bm = await findBMByMatch(market[0].EventID)
 //     // console.log('bookmaker',req.body.matchId, bm.length)
     let session = await findSession(market[0].EventID)
@@ -964,17 +964,17 @@ router.post('/MatchData', async (req, res) => {
     	res.status(200).json({ status: true,});
     	return;
 	}
-	if(check.length > 0){
-    	let difference = Date.now() - check[0].lastUpdate;
-    	// console.log('difference ' + difference,  Date.now(), check[0].lastUpdate)
-	if (difference > 900) {
-	if(check[0].gameId === 4){
-		await getFancy(check[0].eventID);
-		await getBookMaker(check[0].eventID);
-	}
-		await getOdds(market[0].marketId, market[0].GameId, market[0].ComponentId, market[0].EventID);
-	}else{ console.log('Time less than'); }
-	}
+	// if(check.length > 0){
+    // 	let difference = Date.now() - check[0].lastUpdate;
+    // 	// console.log('difference ' + difference,  Date.now(), check[0].lastUpdate)
+	// if (difference > 900) {
+	// if(check[0].gameId === 4){
+	// 	await getFancy(check[0].eventID);
+	// 	await getBookMaker(check[0].eventID);
+	// }
+	// 	await getOdds(market[0].marketId, market[0].GameId, market[0].ComponentId, market[0].EventID);
+	// }else{ console.log('Time less than'); }
+	// }
     // let user = await findUser({hash_new:req.headers.token})
     let session = await findSession(req.body.event);
     let odds = await findOddsByMarket(req.body.id);
